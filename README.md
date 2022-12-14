@@ -1,5 +1,7 @@
 # Evaluation-of-Injury-Prevention-Programs
 
+The main purpose of this project was to develop a trauma database to trace participants’ demographic information, program attendance, and survey response. Pre- and post-completion data were compared to assess the needs, trace participation process, and analyze the program impact. The additional purpose of the practicum project was to evaluate the effectiveness of the injury prevention program through comparing injury cases, self-perceived risk, self-reported health conditions, and body functions. 
+
 ## Datasets
 
 Data was collected by Injury Preventions Programs from 2019 to 2021. Attendance
@@ -11,9 +13,4 @@ and effectiveness.
 
 ## Lessons Learned
 
-•	Due to a significant amount of missing data, there were inconsistencies in the information
-collected across program sites within the same year and across different years. The Stepping On
-program consists of seven sessions of the course of seven weeks. To assess retention, participants
-who attended 5 sessions or more are considered Completers; those who attended less than 5
-sessions are Non-completers. Participants with missing attendance information were not included
-in either category.
+•	

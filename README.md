@@ -1,6 +1,6 @@
 # Evaluation of Injury Prevention Programs
 
-The main purpose of this project was to develop a trauma database to trace participants’ demographic information, program attendance, and survey response. Pre- and post-completion data were compared to assess the needs, trace participation process, and analyze the program impact. The additional purpose of the practicum project was to evaluate the effectiveness of the injury prevention program through comparing injury cases, self-perceived risk, self-reported health conditions, and body functions. 
+While injury prevention programs were delivered with a wider reach through virtual sessions, it brought new challenges in streamlining data collection and evaluation. The main purpose of this project was to develop a trauma database to trace participants’ demographic information, program attendance, and survey response. Pre- and post-completion data were compared to assess the needs, trace participation process, and analyze the program impact. The additional purpose of the practicum project was to evaluate the effectiveness of the injury prevention program through comparing injury cases, self-perceived risk, self-reported health conditions, and body functions. 
 
 ## Datasets
 

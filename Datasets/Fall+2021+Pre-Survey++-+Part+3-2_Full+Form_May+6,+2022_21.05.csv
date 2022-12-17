@@ -1,0 +1,129 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11_1,Q11_2,Q11_3,Q11_4,Q11_5,Q11_6,Q11_7,Q11_8,Q11_9,Q11_10,Q12,Q13,Q14,Q16,Q17,Q18,Q19,Q21,Q22_1,Q22_2,Q22_3,Q22_4,Q22_5,Q23,Q24,Q25
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Participant I.D. __ __ /__ __/ __ __ (first two letters of your first name, first two letters of your last name, last two numbers of your birth year)","1. Did your doctor, nurse,
+physical therapist or other health care provider suggest that you
+take this program?",2. How old are you today?              years,3. Do you live alone?,4. Are you:,"5. Are you of Hispanic, Latino, or
+Spanish origin?","6. What is
+your
+race? Check all that apply.","7. What is
+the
+highest grade or level of
+school that you have completed?","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Arthritis or other bone/joint disease","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Breathing/lung disease","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Cancer","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Depression","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Diabetes","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Heart disease or blood circulation problem","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - High blood pressure/hypertension","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Glaucoma/other chronic eye problem","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Osteoporosis","8.  Has a health care provider ever told you that you have any of the following chronic conditions (i.e., one that has lasted for three months or
+more)? Check Yes or No. - Parkinson’s Disease",Other Chronic Condition(s) (specify):,"9. Are you limited in any way in any activities
+because of physical, mental, or  
+
+   emotional problems?","10. In general, would you say that your health is:","11. In the past 3 months, how many times have you fallen?","If you
+fell in the past 3 months: 
+
+a.  how many of these falls caused an injury?
+(By an injury we mean the fall caused you to limit your regular activities for at least a day or to go see a
+doctor.)
+
+                 number of falls causing an injury","If you
+fell in the past 3 months: 
+
+b.
+where
+did the fall(s) occur (Please check all
+that apply)?","If you fell in the past 3 months:c. what
+happened after you fell and had an injury? (Please
+check all that apply)",12. How fearful are you of falling?,"13. Please mark the circle that tells us how sure you are that you can do the following activities.
+
+
+
+
+
+
+
+ 
+
+How sure are you that: - a. I can find a way to get up if I fall","13. Please mark the circle that tells us how sure you are that you can do the following activities.
+
+
+
+
+
+
+
+ 
+
+How sure are you that: - b. I can find a way to reduce falls","13. Please mark the circle that tells us how sure you are that you can do the following activities.
+
+
+
+
+
+
+
+ 
+
+How sure are you that: - c. I can protect myself if I fall","13. Please mark the circle that tells us how sure you are that you can do the following activities.
+
+
+
+
+
+
+
+ 
+
+How sure are you that: - d. I can increase my physical strength","13. Please mark the circle that tells us how sure you are that you can do the following activities.
+
+
+
+
+
+
+
+ 
+
+How sure are you that: - e.  I can become more steady on my feet","14. During the last 4 weeks, to what extent has your concern about falling interfered with your normal social activities with family, friends, neighbors or groups?","15. I have made
+safety modifications in my home, such as installing grab bars or securing loose
+rugs, to reduce my risk of falling.","16. What
+best describes your activity level?"
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID3_TEXT""}","{""ImportId"":""QID4""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""QID6""}","{""ImportId"":""QID7""}","{""ImportId"":""QID8""}","{""ImportId"":""QID9""}","{""ImportId"":""QID10""}","{""ImportId"":""QID11_1""}","{""ImportId"":""QID11_2""}","{""ImportId"":""QID11_3""}","{""ImportId"":""QID11_4""}","{""ImportId"":""QID11_5""}","{""ImportId"":""QID11_6""}","{""ImportId"":""QID11_7""}","{""ImportId"":""QID11_8""}","{""ImportId"":""QID11_9""}","{""ImportId"":""QID11_10""}","{""ImportId"":""QID12_TEXT""}","{""ImportId"":""QID13""}","{""ImportId"":""QID14""}","{""ImportId"":""QID16""}","{""ImportId"":""QID17_TEXT""}","{""ImportId"":""QID18""}","{""ImportId"":""QID19""}","{""ImportId"":""QID21""}","{""ImportId"":""QID22_1""}","{""ImportId"":""QID22_2""}","{""ImportId"":""QID22_3""}","{""ImportId"":""QID22_4""}","{""ImportId"":""QID22_5""}","{""ImportId"":""QID23""}","{""ImportId"":""QID24""}","{""ImportId"":""QID25""}"
+2021-09-27 10:13:48,2021-09-27 10:16:12,IP Address,69.127.119.63,100,143,True,2021-09-27 10:16:12,R_242z5p2v2CDP2VQ,,,,,40.8878936767578125,-73.008697509765625,anonymous,EN,Diwe53,Yes,"  68",No,Female,No,White,College graduate or higher,,,,,,,,,Yes,Yes,,No,Very Good,0,,,,A little,Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Slightly,True,Moderately active at least 3 times per week
+2021-09-27 10:27:56,2021-09-27 10:32:12,IP Address,74.89.68.173,100,256,True,2021-09-27 10:32:13,R_31Z4MOsj77cQAsF,,,,,41.0092010498046875,-72.4766998291015625,anonymous,EN,FR/FI/41,Yes,80,No,Male,No,White,College graduate or higher,No,No,No,No,No,No,No,No,No,Yes,,No,Very Good,0,,,,Somewhat,Very Sure,Very Sure,Sure,Sure,Very Sure,Not at all,False,"Vigorously active for at least 30 min, 3 times per week"
+2021-09-27 11:06:26,2021-09-27 11:08:44,IP Address,129.49.97.192,100,137,True,2021-09-27 11:08:44,R_uqXO9F3baminy5b,,,,,40.8224945068359375,-73.20349884033203125,anonymous,EN,anca59,No,61,No,Female,No,White,College graduate or higher,No,No,No,No,No,No,No,No,No,No,,No,Very Good,0,,,,Not at all,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-09-27 11:58:21,2021-09-27 12:01:42,IP Address,68.195.35.84,100,201,True,2021-09-27 12:01:43,R_33d6zL65Svdz3xU,,,,,40.7606048583984375,-72.98439788818359375,anonymous,EN,DE/LE/50,No,71,Yes,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,No,Yes,No,,No,Very Good,0,,,,Not at all,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-09-27 12:01:03,2021-09-27 12:03:35,IP Address,69.116.133.61,100,152,True,2021-09-27 12:03:36,R_yx3j8Ih9F9jRKDv,,,,,40.8784942626953125,-72.95379638671875,anonymous,EN,fr/le/48,No,73,Yes,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,No,No,No,,No,Very Good,0,,,,A little,Sure,Sure,Sure,Sure,Sure,Slightly,True,Moderately active at least 3 times per week
+2021-09-27 12:08:12,2021-09-27 12:10:23,IP Address,47.20.205.224,100,130,True,2021-09-27 12:10:23,R_12a5jOcYRQ5f3Qg,,,,,40.922698974609375,-72.7480010986328125,anonymous,EN,Luzo42,No,79,Yes,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,No,Yes,No,,No,Excellent,0,,,,A little,Sure,Very Sure,Sure,Very Sure,Very Sure,Not at all,True,Moderately active at least 3 times per week
+2021-09-27 12:35:21,2021-09-27 12:40:39,IP Address,24.45.81.184,100,317,True,2021-09-27 12:40:39,R_1Qhz11xruNJqgcq,,,,,40.9347991943359375,-73.01000213623046875,anonymous,EN,An/Fa/52,No,69,No,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,No,Yes,No,"Hypothyroid ",No,Excellent,0,,,,A little,Very Sure,Sure,Somewhat Sure,Very Sure,Sure,Not at all,False,Moderately active at least 3 times per week
+2021-09-27 12:47:12,2021-09-27 12:49:03,IP Address,24.191.227.202,100,110,True,2021-09-27 12:49:04,R_TcpCNH6fa5w8SmB,,,,,40.877105712890625,-73.0885009765625,anonymous,EN,Roki46,No,74,No,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,Yes,No,No,No,"Fibromyalgia ",No,Good,0,,,,A little,Somewhat Sure,Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Slightly,True,Moderately active at least 3 times per week
+2021-09-27 13:23:26,2021-09-27 13:26:12,IP Address,108.21.91.180,100,166,True,2021-09-27 13:26:12,R_1lfwXPyk5i5VddU,,,,,40.942596435546875,-73.111602783203125,anonymous,EN,elfr44,Yes,76,No,Female,No,White,College graduate or higher,,,,,,,,,Yes,,,No,Good,0,,,,Alot,Somewhat Sure,Sure,Not at all sure,Sure,Sure,Not at all,False,Moderately active at least 3 times per week
+2021-09-27 13:41:44,2021-09-27 13:44:33,IP Address,69.127.117.164,100,168,True,2021-09-27 13:44:33,R_1hy651tbV47wmtB,,,,,40.9160003662109375,-73.0496978759765625,anonymous,EN,SULU39,No,82,Yes,Female,No,White,College graduate or higher,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,,No,Very Good,0,,,,A little,Somewhat Sure,Sure,Somewhat Sure,Sure,Sure,Not at all,False,Moderately active at least 3 times per week
+2021-09-27 14:16:57,2021-09-27 14:20:15,IP Address,208.95.80.170,100,197,True,2021-09-27 14:20:15,R_3hz09sqAXZ4WxVn,,,,,26.2519073486328125,-81.76360321044921875,anonymous,EN,Ir Ho,No,74,Yes,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,Yes,No,No,No,UC,Yes,Very Good,0,,,,A little,Very Sure,Sure,Sure,Very Sure,Sure,Not at all,False,Moderately active at least 3 times per week
+2021-09-27 14:21:13,2021-09-27 14:24:06,IP Address,68.198.45.216,100,172,True,2021-09-27 14:24:06,R_22skE0CBvWmkVd6,,,,,40.9160003662109375,-73.0496978759765625,anonymous,EN,ArGr42,No,79,Yes,Female,No,White,College graduate or higher,Yes,,,,,,,,Yes,,,No,Good,0,,,,A little,Very Sure,Sure,Sure,Sure,Sure,Not at all,True,Moderately active at least 3 times per week
+2021-09-27 14:31:45,2021-09-27 14:35:55,IP Address,96.224.208.36,100,250,True,2021-09-27 14:35:56,R_1BQVaobT89jK0YM,,,,,40.8549041748046875,-73.2156982421875,anonymous,EN,KA/MA/47,No,74,No,Female,No,White,Some college or vocational school,Yes,No,No,No,No,No,Yes,No,No,No,,No,Good,0,,,,Somewhat,Somewhat Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Not at all,True,Moderately active at least 3 times per week
+2021-09-27 18:15:24,2021-09-27 18:18:20,IP Address,24.146.172.98,100,176,True,2021-09-27 18:18:21,R_1f7nYYNdXmLdPHT,,,,,40.956695556640625,-72.83280181884765625,anonymous,EN,mype50,No,71,No,Female,Yes,White,College graduate or higher,Yes,No,Yes,No,No,No,No,No,Yes,No,scoliosis,No,Very Good,0,,,,Not at all,Very Sure,Very Sure,Sure,Very Sure,Very Sure,Not at all,False,Moderately active at least 3 times per week
+2021-09-28 08:46:54,2021-09-28 08:49:03,IP Address,67.149.162.40,100,128,True,2021-09-28 08:49:04,R_3QW9el1OZNJjfJb,,,,,42.51800537109375,-83.15760040283203125,anonymous,EN,Ho/be/60,No,61,No,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,Yes,No,No,,No,Very Good,0,,,,A little,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Slightly,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-09-28 08:51:10,2021-09-28 08:54:52,IP Address,69.124.154.45,100,222,True,2021-09-28 08:54:53,R_3EstrvInuJDFgvH,,,,,40.7606048583984375,-72.98439788818359375,anonymous,EN,MADU48,No,73,Yes,Female,No,"American Indian or Alaska Native,Black or African American",College graduate or higher,Yes,No,No,No,No,No,No,Yes,No,No,,No,Very Good,1,1,Outdoors,Visited my Primary Care Physician,Not at all,Sure,Very Sure,Sure,Very Sure,Very Sure,Not at all,True,Moderately active at least 3 times per week
+2021-10-05 09:31:31,2021-10-05 09:34:23,IP Address,68.195.35.84,100,171,True,2021-10-05 09:34:23,R_1K1KueVJHFpjW8q,,,,,40.7606048583984375,-72.98439788818359375,anonymous,EN,DE/LE/50,No,71,Yes,Female,No,White,College graduate or higher,No,No,No,No,No,No,No,No,Yes,No,,No,Very Good,0,,,,Not at all,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-05 09:34:58,2021-10-05 09:37:40,IP Address,96.224.211.47,100,162,True,2021-10-05 09:37:40,R_RwyNtbSoraz3suB,,,,,40.8549041748046875,-73.2156982421875,anonymous,EN,ma/mc/53,No,68,No,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,No,No,No,,No,Very Good,0,,,,A little,Sure,Sure,Sure,Sure,Sure,Not at all,False,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-05 09:44:34,2021-10-05 09:47:04,IP Address,71.183.38.19,100,150,True,2021-10-05 09:47:05,R_1DMZQ71xS97dnUB,,,,,40.8430938720703125,-73.2808990478515625,anonymous,EN,02/03/54,No,67,No,Male,No,White,College graduate or higher,Yes,,,,,,,,,,"BPH, Chronic kidney disease, MVP",No,Good,0,,,,Somewhat,Somewhat Sure,Sure,Somewhat Sure,Very Sure,Sure,Moderately,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-05 09:47:36,2021-10-05 09:49:48,IP Address,24.187.149.220,100,131,True,2021-10-05 09:49:48,R_2CrWF0xZYNJdDlk,,,,,40.859893798828125,-73.11479949951171875,anonymous,EN,LELI44,No,77,No,Female,No,White,College graduate or higher,No,No,No,No,No,No,Yes,No,Yes,No,,No,Good,0,,,,Somewhat,Sure,Sure,Sure,Sure,Sure,Not at all,False,Moderately active at least 3 times per week
+2021-10-05 09:48:21,2021-10-05 09:50:14,IP Address,69.127.118.69,100,113,True,2021-10-05 09:50:14,R_2fj3Y8eYFOK6p1z,,,,,40.9160003662109375,-73.0496978759765625,anonymous,EN,anma40,Yes,81,No,Female,,White,College graduate or higher,,,,,,,Yes,,Yes,,legally blind,Yes,Good,0,,,,Somewhat,Somewhat Sure,Sure,Somewhat Sure,Somewhat Sure,Sure,Not at all,True,"Seldom active, preferring sedentary activities"
+2021-10-05 09:52:17,2021-10-05 09:55:52,IP Address,50.79.161.149,100,215,True,2021-10-05 09:55:53,R_2VrULUSFJc6nIKk,,,,,40.7205047607421875,-73.87960052490234375,anonymous,EN,Do/om/59,No,62,No,Female,No,White,Some college or vocational school,Yes,No,No,No,No,No,Yes,No,Yes,No,,No,Very Good,0,,,,Somewhat,Very Sure,Very Sure,Sure,Very Sure,Very Sure,Not at all,False,Moderately active at least 3 times per week
+2021-10-05 10:02:04,2021-10-05 10:05:32,IP Address,148.75.183.144,100,207,True,2021-10-05 10:05:32,R_3kiAT9fX02waZOa,,,,,40.877105712890625,-73.0885009765625,anonymous,EN,Mysi45,No,76,Yes,Male,No,White,College graduate or higher,Yes,No,No,No,No,No,Yes,No,Yes,No,,Yes,Good,1,0,Indoors,Did not seek medical care,Alot,Somewhat Sure,Sure,Somewhat Sure,Very Sure,Sure,Quite a bit,True,Moderately active at least 3 times per week
+2021-10-05 10:02:44,2021-10-05 10:06:30,IP Address,108.27.78.14,100,225,True,2021-10-05 10:06:30,R_210Sf0qJJqHgj0L,,,,,40.8549041748046875,-73.2156982421875,anonymous,EN,cali43,No,78,Yes,Female,No,White,College graduate or higher,Yes,No,Yes,No,No,No,Yes,Yes,Yes,No," IBS",No,Good,0,,,,A little,Sure,Sure,Sure,Sure,Sure,Not at all,True,Moderately active at least 3 times per week
+2021-10-05 10:11:35,2021-10-05 10:13:56,IP Address,98.7.53.101,100,140,True,2021-10-05 10:13:56,R_88MifqSrnq1xkJP,,,,,40.781005859375,-73.950103759765625,anonymous,EN,maca65,No,56,No,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,No,No,No,No,,No,Very Good,0,,,,Not at all,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-05 10:14:04,2021-10-05 10:16:16,IP Address,71.105.113.67,100,132,True,2021-10-05 10:16:16,R_32VlqrZxg07cAZr,,,,,40.942596435546875,-73.111602783203125,anonymous,EN,Jico51,No,70,No,Female,No,White,College graduate or higher,No,No,No,No,No,No,No,No,Yes,No,,No,Very Good,1,0,Outdoors,Did not seek medical care,A little,Sure,Sure,Somewhat Sure,Sure,Sure,Not at all,False,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-05 11:08:40,2021-10-05 11:10:34,IP Address,24.191.227.202,100,113,True,2021-10-05 11:10:34,R_1EiyxJfeooje7RK,,,,,40.877105712890625,-73.0885009765625,anonymous,EN,Roki46,No,74,No,Female,No,White,College graduate or higher,Yes,No,No,No,No,No,Yes,No,No,No,"Fibromyalgia ",No,Good,0,,,,A little,Somewhat Sure,Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Slightly,True,Moderately active at least 3 times per week
+2021-10-05 11:20:28,2021-10-05 11:26:30,IP Address,74.88.16.93,100,361,True,2021-10-05 11:26:30,R_ebbfrO0Bb0e6hGh,,,,,40.871002197265625,-73.05100250244140625,anonymous,EN,"PAKA44 ",No,77,No,Female,No,White,College graduate or higher,Yes,No,Yes,No,No,Yes,Yes,No,No,No,,No,Very Good,0,,,,Alot,Not at all sure,Sure,Somewhat Sure,Sure,Somewhat Sure,Slightly,True,"Seldom active, preferring sedentary activities"
+2021-10-05 13:58:33,2021-10-05 14:00:13,IP Address,204.126.240.6,100,100,True,2021-10-05 14:00:13,R_9uFfyVHd1FAzWEh,,,,,40.7606048583984375,-72.98439788818359375,anonymous,EN,libo64,No,57,No,Female,No,White,College graduate or higher,No,Yes,Yes,No,No,No,No,No,Yes,No,,No,Excellent,0,,,,Not at all,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,False,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-06 08:32:44,2021-10-06 08:49:50,IP Address,74.88.16.233,100,1026,True,2021-10-06 08:49:51,R_3dDIditIvD17R5L,,,,,40.859893798828125,-73.11479949951171875,anonymous,EN,Je/Ka/43,No,77,No,Male,No,White,College graduate or higher,Yes,No,No,No,No,No,Yes,Yes,No,No,Taking Jantoven(Warfarin) for blood clot in leg,No,Good,0,,,,A little,Sure,Sure,Somewhat Sure,Sure,Somewhat Sure,Slightly,True,Moderately active at least 3 times per week
+2021-10-06 09:25:54,2021-10-06 09:39:25,IP Address,68.195.71.118,100,811,True,2021-10-06 09:39:26,R_1N4Fh8FiMx4iHzq,,,,,40.9075927734375,-73.12200164794921875,anonymous,EN,NA/DO/43,No,78,Yes,Female,No,White,College graduate or higher,Yes,No,Yes,No,No,No,Yes,No,Yes,No,Liver Resection,Yes,Good,0,,,,A little,Somewhat Sure,Sure,Somewhat Sure,Very Sure,Sure,Slightly,True,"Seldom active, preferring sedentary activities"
+2021-10-06 10:31:07,2021-10-06 10:34:27,IP Address,68.195.162.216,100,199,True,2021-10-06 10:34:27,R_3qeYRLggpa4ROUG,,,,,40.864593505859375,-73.898101806640625,anonymous,EN,an/ba/44,No,77,Yes,Female,No,White,College graduate or higher,No,No,No,No,No,Yes,No,No,No,No,,Yes,Fair,0,,,,A little,Sure,Sure,Not at all sure,Somewhat Sure,Somewhat Sure,Slightly,True,Moderately active at least 3 times per week
+2021-10-06 11:01:07,2021-10-06 11:05:33,IP Address,67.84.154.95,100,266,True,2021-10-06 11:05:34,R_tMWcQHPCGZ3OKOt,,,,,40.8878936767578125,-73.008697509765625,anonymous,EN,ROFE42,No,78,No,Female,No,White,College graduate or higher,No,No,No,No,No,No,Yes,No,No,,,No,Very Good,0,,,,A little,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,True,Moderately active at least 3 times per week
+2021-10-07 11:32:07,2021-10-07 11:36:19,IP Address,24.187.108.50,100,252,True,2021-10-07 11:36:20,R_ZrXtjYUKeJcLSqB,,,,,40.821197509765625,-72.985198974609375,anonymous,EN,60qu48,No,72,No,Female,No,White,Some college or vocational school,Yes,,,,,,,,,,,Yes,Very Good,0,,,,A little,Very Sure,Sure,Somewhat Sure,Very Sure,Somewhat Sure,Not at all,True,"Seldom active, preferring sedentary activities"
+2021-10-09 12:53:20,2021-10-09 12:55:39,IP Address,67.83.153.85,100,138,True,2021-10-09 12:55:39,R_12x0cuYlQKlsLiB,,,,,40.9456939697265625,-73.06109619140625,anonymous,EN,el/ge/43,No,78,Yes,Female,No,White,College graduate or higher,Yes,,,,,,Yes,,Yes,,,No,Excellent,0,,,,Not at all,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-10-15 09:09:55,2021-10-15 09:12:45,IP Address,47.20.57.104,100,170,True,2021-10-15 09:12:46,R_3CIacpPzj9D6N4U,,,,,40.9075927734375,-73.12200164794921875,anonymous,EN,Gibu48,Yes,73,No,Female,No,White,College graduate or higher,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,,No,Good,0,,,,A little,Somewhat Sure,Sure,Somewhat Sure,Sure,Sure,Moderately,True,Moderately active at least 3 times per week
+2021-11-14 10:25:36,2021-11-14 10:28:07,IP Address,24.146.158.217,100,150,True,2021-11-14 10:28:07,R_3Jbee4AxYMR0de1,,,,,40.942596435546875,-73.111602783203125,anonymous,EN,le/fr/42,No,79,Yes,Female,No,White,College graduate or higher,Yes,,,Yes,,Yes,,,,,,No,Good,0,,,,Somewhat,Somewhat Sure,Somewhat Sure,Not at all sure,Somewhat Sure,Somewhat Sure,Slightly,True,Moderately active at least 3 times per week

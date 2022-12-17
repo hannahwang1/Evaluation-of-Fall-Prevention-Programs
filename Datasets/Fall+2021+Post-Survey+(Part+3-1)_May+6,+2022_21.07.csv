@@ -1,0 +1,122 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q43,Q3,Q4,Q35_NPS_GROUP,Q35,Q38_NPS_GROUP,Q38,Q39,Q40,Q7,Q41_1,Q41_2,Q41_3,Q41_4,Q41_5,Q42,Q43_1,Q43_2,Q43_3,Q43_4,Q43_5,Q44,Q45,Q46
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Please Select Today's Date: 
+ 
+ 
+ 
+
+
+
+Qualtrics.SurveyEngine.addOnload(function ()
+{
+  var qid = this.questionId;
+  var calid = qid + '_cal';
+  var y = QBuilder('div');
+  $(y).setStyle({clear:'both'});
+  var d = QBuilder('div',{className:'yui-skin-sam'},[
+    QBuilder('div', {id:calid}),
+    y
+  ]);
+  
+  var c = this.questionContainer;
+  c = $(c).down('.QuestionText');
+  c.appendChild(d);
+  var cal1 = new YAHOO.widget.Calendar(calid); 
+  cal1.render(); 
+  var input = $('QR~' + qid);
+  $(input).setStyle({marginTop: '20px',width: '150px'});
+  var p =$(input).up();
+  var x = QBuilder('div');
+  $(x).setStyle({clear:'both'});
+  p.insert(x,{position:'before'});
+    cal1.selectEvent.subscribe(function(e,dates){
+    var date = dates[0][0];
+    if (date[1]","Participant I.D. __ __ /__ __/ __ __ (first two letters of your first name, first two letters of your last name, last two numbers of your birth year)","1. In general, would you say that your health is:","2. Since this program began, how many times have you fallen? - Group","2. Since this program began, how many times have you fallen?","If you fell since the program began:
+
+ 
+a. how many of these falls caused an injury? (By an injury we mean the fall caused you to limit your regular activities for at least a day or to go see a doctor.) - Group","If you fell since the program began:
+
+ 
+a. how many of these falls caused an injury? (By an injury we mean the fall caused you to limit your regular activities for at least a day or to go see a doctor.)",b. where did the fall(s) occur (Please check all that apply)?,c. what happened after you fell and had an injury? (Please check all that apply),3. How fearful are you of falling?,"4. Please mark the circle that tells us how sure you are that you can do the
+
+following activities.
+
+ 
+
+How sure are you that: - a. I can find a way to get up if I fall","4. Please mark the circle that tells us how sure you are that you can do the
+
+following activities.
+
+ 
+
+How sure are you that: - b. I can find a way to reduce falls","4. Please mark the circle that tells us how sure you are that you can do the
+
+following activities.
+
+ 
+
+How sure are you that: - c. I can protect myself if I fall","4. Please mark the circle that tells us how sure you are that you can do the
+
+following activities.
+
+ 
+
+How sure are you that: - d. I can increase my physical strength","4. Please mark the circle that tells us how sure you are that you can do the
+
+following activities.
+
+ 
+
+How sure are you that: - e. I can become more steady on my feet","5. During the last 4 weeks, to what extent has your concern about falling interfered
+
+with your normal social activities with family, friends, neighbors or groups?","6. Please tell us your thoughts about this program. Check one circle for each
+
+question.
+
+ 
+
+As a result of this program: - a. I feel more comfortable talking to my health care provider about my medications and other possible risks for falling","6. Please tell us your thoughts about this program. Check one circle for each
+
+question.
+
+ 
+
+As a result of this program: - b. I feel more comfortable talking to my family and friends about falling","6. Please tell us your thoughts about this program. Check one circle for each
+
+question.
+
+ 
+
+As a result of this program: - c. I feel more comfortable increasing my activity","6. Please tell us your thoughts about this program. Check one circle for each
+
+question.
+
+ 
+
+As a result of this program: - d. I feel more satisfied with my life","6. Please tell us your thoughts about this program. Check one circle for each
+
+question.
+
+ 
+
+As a result of this program: - e. I would recommend this program to a friend or relative","7. Since this program began, what have you done to reduce your chance of a fall?
+
+Check all that apply.","8. I have made safety modifications in my home, such as installing grab bars or securing
+
+loose rugs, to reduce my risk of falling.",9. What best describes your activity level?
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID66_TEXT""}","{""ImportId"":""QID3_TEXT""}","{""ImportId"":""QID4""}","{""ImportId"":""QID35_NPS_GROUP""}","{""ImportId"":""QID35""}","{""ImportId"":""QID38_NPS_GROUP""}","{""ImportId"":""QID38""}","{""ImportId"":""QID39""}","{""ImportId"":""QID40""}","{""ImportId"":""QID7""}","{""ImportId"":""QID41_1""}","{""ImportId"":""QID41_2""}","{""ImportId"":""QID41_3""}","{""ImportId"":""QID41_4""}","{""ImportId"":""QID41_5""}","{""ImportId"":""QID42""}","{""ImportId"":""QID43_24""}","{""ImportId"":""QID43_33""}","{""ImportId"":""QID43_34""}","{""ImportId"":""QID43_35""}","{""ImportId"":""QID43_36""}","{""ImportId"":""QID44""}","{""ImportId"":""QID45""}","{""ImportId"":""QID46""}"
+2021-11-12 17:33:06,2021-11-12 17:36:21,IP Address,68.132.126.105,100,194,True,2021-11-12 17:36:21,R_3hiJzfF11QtxjS1,,,,,40.7621002197265625,-73.331298828125,anonymous,EN,,misz54,Very Good,Detractor,0,,,,,A little,Sure,Sure,Sure,Sure,Sure,Not at all,,,Agree,Agree,Agree,,True,Moderately active at least 3 times per week
+2021-11-12 18:25:36,2021-11-12 18:28:56,IP Address,172.58.237.223,100,199,True,2021-11-12 18:28:56,R_UL3sIneuv6t5eaB,,,,,40.7339935302734375,-74.071197509765625,anonymous,EN,,Gikl50,Excellent,Detractor,1,Detractor,0,Outdoors,Did not seek medical care,A little,Very Sure,Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Not at all,Agree,Disagree,Agree,Agree,Strongly Agree,,False,Moderately active at least 3 times per week
+2021-11-12 21:05:29,2021-11-12 21:06:39,IP Address,98.33.66.232,100,69,True,2021-11-12 21:06:40,R_d9Xua3nyGlAwW5P,,,,,37.75579833984375,-121.95269775390625,anonymous,EN,11-13-2021,"Vile52 ",Good,Detractor,0,,,,,A little,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,Talked to a family member or friend about how I can reduce my risk of falling,True,Moderately active at least 3 times per week
+2021-11-12 21:39:44,2021-11-12 21:41:34,IP Address,108.48.87.145,100,110,True,2021-11-12 21:41:34,R_2YRipKUYY3Ga3FI,,,,,38.528106689453125,-76.98419952392578125,anonymous,EN,11-12-2021,Mi/Mc/59,Very Good,Detractor,1,Detractor,0,Indoors,Did not seek medical care,A little,Somewhat Sure,Sure,Somewhat Sure,Sure,Somewhat Sure,Not at all,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,"Talked to a family member or friend about how I can reduce my risk of falling,Talked to a health care provider about how I can reduce my risk of falling",True,Moderately active at least 3 times per week
+2021-11-12 23:16:39,2021-11-12 23:18:15,IP Address,174.197.133.176,100,95,True,2021-11-12 23:18:16,R_2EoErXVRW1vjbAj,,,,,40.622100830078125,-73.9810028076171875,anonymous,EN,11-12-2021,Elbr53,Very Good,Detractor,0,,,,,A little,Sure,Sure,Sure,Sure,Sure,Moderately,Agree,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,Talked to a family member or friend about how I can reduce my risk of falling,False,Moderately active at least 3 times per week
+2021-11-13 23:42:42,2021-11-13 23:46:45,IP Address,96.224.211.252,100,243,True,2021-11-13 23:46:45,R_25KfUpkkAFThUki,,,,,40.8549041748046875,-73.2156982421875,anonymous,EN,,shme41,Very Good,Detractor,0,,,,,A little,Sure,Very Sure,Somewhat Sure,Somewhat Sure,Sure,Not at all,Agree,Strongly Agree,Disagree,Disagree,Strongly Agree,Talked to a family member or friend about how I can reduce my risk of falling,False,Moderately active at least 3 times per week
+2021-11-14 11:32:55,2021-11-14 11:43:40,IP Address,96.232.128.27,100,644,True,2021-11-14 11:43:40,R_2BakHoKh9eKyhxJ,,,,,40.8549041748046875,-73.2156982421875,anonymous,EN,11-14-2021,Ropa42,Very Good,Detractor,0,,,,,A lot,Very Sure,Sure,Sure,Sure,Sure,Not at all,Agree,Strongly Agree,Agree,Agree,Strongly Agree,Had my medications reviewed by a health care provider or pharmacist,False,"Vigorously active for at least 30 min, 3 times per week"
+2021-11-14 15:42:16,2021-11-14 15:45:13,IP Address,108.14.64.149,100,176,True,2021-11-14 15:45:13,R_DH7MAOgCkqS4ocF,,,,,40.7599945068359375,-73.53179931640625,anonymous,EN,11-14-2021,GR/PE/37,Very Good,Detractor,0,,,,,A little,Sure,Sure,Sure,Sure,Sure,Not at all,Agree,Agree,Strongly Agree,Strongly Agree,Strongly Agree,,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-11-14 18:06:19,2021-11-14 18:09:59,IP Address,24.191.230.3,100,220,True,2021-11-14 18:10:00,R_TdZdhl4YJo68LdL,,,,,40.9160003662109375,-73.0496978759765625,anonymous,EN,11-14-2021,Pesc38,Fair,Detractor,0,,,,,A lot,Somewhat Sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Not at all sure,Moderately,Strongly Agree,Agree,Agree,Agree,Strongly Agree,Talked to a family member or friend about how I can reduce my risk of falling,True,"Seldom active, preferring sedentary activities"
+2021-11-14 21:50:29,2021-11-14 21:59:31,IP Address,221.127.28.178,100,541,True,2021-11-14 21:59:31,R_1rwUXCUfhTapmW2,,,,,22.3162994384765625,114.1842041015625,anonymous,EN,11-15-2021,MICH52,Fair,Detractor,0,,,,,Somewhat,Not at all sure,Somewhat Sure,Somewhat Sure,Somewhat Sure,Sure,Not at all,Agree,Agree,Strongly Agree,Agree,Strongly Agree,,False,Moderately active at least 3 times per week
+2021-11-15 11:41:29,2021-11-15 11:47:52,IP Address,129.49.148.233,100,382,True,2021-11-15 11:47:52,R_2Sjn9AAGMme11WU,,,,,40.821197509765625,-72.985198974609375,anonymous,EN,11-15-2021,MAMC57,Good,Detractor,0,,,,,Somewhat,Sure,Sure,Sure,Very Sure,Very Sure,Not at all,Strongly Agree,Agree,Agree,Agree,Strongly Agree,Had my medications reviewed by a health care provider or pharmacist,False,Moderately active at least 3 times per week
+2021-11-17 21:49:09,2021-11-17 21:52:50,IP Address,67.84.148.186,100,221,True,2021-11-17 21:52:51,R_vSl5Qy74RgqmKeB,,,,,40.835205078125,-73.04340362548828125,anonymous,EN,11/17,Sugo45,Excellent,Detractor,0,,,,,,Very Sure,Sure,Very Sure,Very Sure,Very Sure,Not at all,Agree,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,,True,"Vigorously active for at least 30 min, 3 times per week"
+2021-11-20 11:34:39,2021-11-20 11:46:09,IP Address,24.44.131.229,100,689,True,2021-11-20 11:46:09,R_VQjxxyrRsCXJV6h,,,,,40.942596435546875,-73.111602783203125,anonymous,EN,11-20-2021,hehu33,Good,Detractor,2,Detractor,0,Indoors,Did not seek medical care,Somewhat,Not at all sure,Somewhat Sure,Not at all sure,Somewhat Sure,Sure,Moderately,Agree,Strongly Agree,Agree,Agree,Strongly Agree,"Talked to a family member or friend about how I can reduce my risk of falling,Had my vision checked,Had my medications reviewed by a health care provider or pharmacist",True,Moderately active at least 3 times per week
+2021-11-22 10:58:55,2021-11-22 11:02:46,IP Address,47.14.116.150,100,231,True,2021-11-22 11:02:46,R_3KOAVXWnlPHjMI4,,,,,42.1510009765625,-71.646697998046875,anonymous,EN,11-22-2021,joca43,Good,Detractor,1,Detractor,0,Outdoors,Did not seek medical care,Not at all,Very Sure,Very Sure,Sure,Very Sure,Sure,Not at all,Disagree,Disagree,Agree,Agree,Strongly Agree,,False,"Vigorously active for at least 30 min, 3 times per week"
+2021-11-22 18:03:21,2021-11-22 18:05:53,IP Address,69.124.159.153,100,152,True,2021-11-22 18:05:54,R_3MoO3gEXlEOKkcr,,,,,40.7606048583984375,-72.98439788818359375,anonymous,EN,,Caab48,Very Good,Detractor,0,,,,,A little,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,"Talked to a health care provider about how I can reduce my risk of falling,Had my vision checked,Had my medications reviewed by a health care provider or pharmacist",True,"Vigorously active for at least 30 min, 3 times per week"
+2021-12-04 16:53:37,2021-12-04 17:00:30,IP Address,104.148.129.185,100,413,True,2021-12-04 17:00:31,R_2w0koISdvMfO2uG,,,,,40.7279052734375,-73.51180267333984375,anonymous,EN,12-04-2021,Tidr43,Very Good,Detractor,0,,,,,A little,Very Sure,Very Sure,Very Sure,Very Sure,Very Sure,Not at all,Agree,Agree,Agree,Strongly Agree,Strongly Agree,,False,Moderately active at least 3 times per week
